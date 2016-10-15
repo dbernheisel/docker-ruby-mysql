@@ -1,5 +1,5 @@
 
-    FROM ruby:2.1.1
+    FROM ruby:2.0.0
     RUN echo "deb http://repo.mysql.com/apt/debian/ jessie mysql-5.6" > /etc/apt/sources.list.d/mysql.list
     RUN apt-key adv --keyserver pgp.mit.edu --recv-keys 5072E1F5
     RUN apt-get update
